@@ -41,26 +41,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.13</version> <!-- Use the latest stable version -->
+</dependency>
+
 
 		<dependency>
-<<<<<<< HEAD
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.5.13</version> <!-- Use the latest stable version -->
-		</dependency>
-
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-
-=======
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		
->>>>>>> 3565b80163d1610834978105a3382225e0a2c1f2
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
